@@ -1,0 +1,52 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #9e8f60;  /* Light orange background */
+    color: rgb(5, 1, 1); 
+}
+
+.container {
+    width: 78%;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    text-align: center;
+    background-color: #e4e49f;
+    padding: 20px 0; 
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 10px; 
+}
+
+nav a { 
+    color: rgb(48, 102, 169);
+    text-decoration:underline;
+}
+
+nav a:hover {
+    color: #020d12; /* Sky blue */
+} 
+
+.profile-info {
+    display: flex;
+    align-items: center;
+}
+
+.profile-info img {
+    width: 150px;
+    height: 160px;
+    border-radius: 80%;
+    margin-right: 20px; 
+} 
+
+
